@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 OCT 2012 16:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 OCT 2012 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,6 +1136,10 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [13
 
+] [14
+
+] [15
+
 ]
 \tf@nav=\write7
 \openout7 = `ppt.nav'.
@@ -1161,11 +1165,11 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 25.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
 (./ppt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 
 
 Package rerunfilecheck Warning: File `ppt.out' has changed.
@@ -1173,38 +1177,35 @@ Package rerunfilecheck Warning: File `ppt.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `ppt.out':
-(rerunfilecheck)             Before: 1BA9A5DA9146F7CEBCE9EF5448EC3726;292
-(rerunfilecheck)             After:  5BD1CAC6730BBE4CB70FA835CC05922B;344.
+(rerunfilecheck)             Before: 5BD1CAC6730BBE4CB70FA835CC05922B;344
+(rerunfilecheck)             After:  BDAA0AC7F68C16F4B95BC49E437C7590;387.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  )
 (\end occurred when \ifx on line 62 was incomplete)
 (\end occurred when \unless\ifcsname on line 62 was incomplete) 
 Here is how much of TeX's memory you used:
- 17391 strings out of 493488
- 323831 string characters out of 3141326
+ 17399 strings out of 493488
+ 323903 string characters out of 3141326
  432075 words of memory out of 3000000
- 20263 multiletter control sequences out of 15000+200000
+ 20267 multiletter control sequences out of 15000+200000
  7009 words of font info for 25 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,15n,53p,392b,572s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (
-dest): name{Navigation14} has been referenced but does not exist, replaced by a
- fixed one
-
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on ppt.pdf (13 pages, 82270 bytes).
+</usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on ppt.pdf (15 pages, 85579 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
