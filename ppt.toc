@@ -1,8 +1,7 @@
 \beamer@endinputifotherversion {3.20pt}
-\beamer@sectionintoc {1}{1. Terminology}{3}{0}{1}
-\beamer@sectionintoc {2}{2. Background Information}{4}{0}{2}
-\beamer@sectionintoc {3}{Principles}{5}{0}{3}
-\beamer@sectionintoc {4}{Tools}{6}{0}{4}
-\beamer@sectionintoc {5}{Arguments from Scale}{7}{0}{5}
-\beamer@sectionintoc {6}{Graphical Methods}{8}{0}{6}
-\beamer@sectionintoc {7}{Basic Optimization}{9}{0}{7}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Principles}{6}{0}{2}
+\beamer@sectionintoc {3}{Tools}{7}{0}{3}
+\beamer@sectionintoc {4}{Arguments from Scale}{8}{0}{4}
+\beamer@sectionintoc {5}{Graphical Methods}{9}{0}{5}
+\beamer@sectionintoc {6}{Basic Optimization}{10}{0}{6}
