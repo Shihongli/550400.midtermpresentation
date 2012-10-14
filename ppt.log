@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 OCT 2012 17:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 OCT 2012 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,15 +1135,51 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [10
 
-] [11
+]
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 193.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 193
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 193
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 193
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 193.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 193.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 193.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 193.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 193.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 193.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 193
+.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+) [11
 
 ] [12
-
-] [13
-
-] [14
-
-] [15
 
 ]
 \tf@nav=\write7
@@ -1170,41 +1206,46 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 26.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
 (./ppt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
 Package rerunfilecheck Info: File `ppt.out' has not changed.
-(rerunfilecheck)             Checksum: BDAA0AC7F68C16F4B95BC49E437C7590;387.
+(rerunfilecheck)             Checksum: 24C43784DC4C7D25A0708C51ED01508D;142.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 205.
  )
 (\end occurred when \ifx on line 63 was incomplete)
 (\end occurred when \unless\ifcsname on line 63 was incomplete) 
 Here is how much of TeX's memory you used:
- 17438 strings out of 493488
- 324400 string characters out of 3141326
- 433519 words of memory out of 3000000
- 20303 multiletter control sequences out of 15000+200000
- 7009 words of font info for 25 fonts, out of 3000000 for 9000
+ 17534 strings out of 493488
+ 326333 string characters out of 3141326
+ 432519 words of memory out of 3000000
+ 20373 multiletter control sequences out of 15000+200000
+ 24071 words of font info for 71 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,15n,53p,392b,572s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on ppt.pdf (15 pages, 85980 bytes).
+{/usr/local/texl
+ive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2012/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2012/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/urw/palatino/uplr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on ppt.pdf (12 pages, 109609 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
