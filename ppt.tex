@@ -178,4 +178,19 @@ b. In statistics, a unit root test tests whether a time series variable is non-s
 \end{frame}
 
 
+\begin{frame}
+    \frametitle{2. Mathematical Models:}
+{\bf{Time Series Analysis:}}\\
+\vspace{7pt}
+\begin{enumerate}
+\item Simulate price spreads with AR (1) process model $$X_t=c+\phi X_t-1+\epsilon _t$$
+\\
+\item Apply GARCH (1,1) model to simulate the residual series of above$$\epsilon_t=h_tz_t, ~~~
+h_t^2=\omega+\alpha y_{t-1}^2+\beta\sigma_{t-1}^2$$
+Here, $z_t$ and $\epsilon_t$ are white noise sequences, and other coefficients satisfy basic assumptions of AR(1) and GARCH(1,1) models.
+\item Predict future price spreads by plugging real present data into the model.
+\end{enumerate}
+\end{frame}
+
+
 \end{document}
