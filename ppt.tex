@@ -202,4 +202,83 @@ Here, $z_t$ and $\epsilon_t$ are white noise sequences, and other coefficients s
 \end{frame}
 
 
+\begin{frame}
+    \frametitle{4. Test and Modification}
+{\bf{Basic ideas:}}\\
+\begin{enumerate}
+\item Real market data will be plugged into the model in order to test the model.
+\item Make modification and improvement to our model.
+\end{enumerate}
+\end{frame}
+
+\section{Project Progress}
+\begin{frame}
+    \frametitle{Progress Report}
+{\bf{Accomplishments:}}\\
+\begin{enumerate}
+\item Massive data has been collected.
+\item Stationarity of data has been verified.
+\item AR(1) and GARCH(1,1) models have been applied to our data.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{R code}
+{\bf{Unit Root Test:}}\\
+library(fUnitRoots)\\
+unitrootTest(cpdiff)\\
+lm.reg=lm(cp1110,cp1109)\\
+summary(lm.reg)\\
+lm.reg.resid=lm.reg\$resid\\
+unitrootTest(lm.reg.resid)\\
+\end{frame}
+\begin{frame}
+    \frametitle{R code}
+{\bf{Time Series Models:}}\\
+library(rugarch)\\
+e=0\\
+pred.series=array()\\
+pred.vol=array()\\
+pred.series=r[1:300]\\
+vol=array()\\
+for (m in 301:len)\{\\
+  e=e+1\\
+  garch11=ugarchspec(variance.model = list(model = ``fGARCH", garchOrder = c(1, 1),\\ submodel=``GARCH"), mean.model = list(armaOrder = c(1, 0), include.mean = FALSE),\\ distribution.model = ``norm")\\
+  myfit=ugarchfit(garch11, r[e:(m-1)], out.sample = 0)\\
+  forc=ugarchforecast(myfit, n.ahead=1)\\
+  pred.series[m]=as.data.frame(forc,which=``sigma")[,2]\\
+  pred.vol[m]=as.data.frame(forc, which=``sigma")[,1]\}
+
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}
+    \frametitle{Conclusion}
+{\bf{Outcomes so far:}}\\
+\begin{enumerate}
+\item The data of CSI300 collected satisfies stationarity.
+\item AR(1) and GARCH(1,1) models are applicable to our data. 
+\end{enumerate}
+{\bf{Work remaining:}}\\
+\begin{enumerate}
+\item Price spreads prediction
+\item Financial analysis with respect to sponsor`s portfolio
+\item Model test
+\end{enumerate}  
+\end{frame}
+
+\begin{frame}
+    \frametitle{Conclusion}
+{\bf{Recommendation for future research:}}\\
+\begin{enumerate}
+\item It's crucial to select accessible and applicable data carefully.
+\item Before setting up mathematical models, one should study theoretical models in depth.\\
+\end{enumerate}
+\end{frame}
+\begin{frame}
+\begin{center}
+\vspace{15pt}
+\Huge{Thank you!}
+\end{center}
+\end{frame}
 \end{document}
